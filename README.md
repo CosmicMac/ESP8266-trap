@@ -27,8 +27,7 @@ I only modified the default delay time (11s on my model), setting it at the mini
 ### About the LED indicator...
 
 The LED should be `on` for a few seconds at startup, then go `off` until the next PIR movement detection.  
-A blinking LED after startup means that the wifi configuration has failed (ESP was unable to connect to the server module).  
-Check if the ESP server module coupled with the camera is activated, then switch the PIR module `off` and `on` again.  
+A blinking LED after startup means that the wifi configuration has failed (ESP was unable to connect to the server module). In this case, just check if the ESP server module coupled with the camera is activated, then switch the PIR module `off` and `on` again.  
 On normal operation, the LED should stay `on` while movement is detected, and go `off` 4 seconds after movement has stopped.
 
 ### Caveats
